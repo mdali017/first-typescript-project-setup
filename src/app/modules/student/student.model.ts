@@ -109,4 +109,4 @@ const studentSchema = new Schema<Student>({
   },
 });
 
-export const StudentModel = mongoose.model('Student', studentSchema);
+export const StudentModel = model<Student>('Student', studentSchema);
